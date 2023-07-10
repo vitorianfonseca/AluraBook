@@ -6,9 +6,7 @@
 
 Projeto contruído no curso de responsividade da Alura.
 
-[Clique aqui para acessar](alura-book-pink.vercel.app
-)
-
+[alura-book-pink.vercel.app]
 
 ## Tecnologias
 
