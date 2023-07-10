@@ -1,0 +1,61 @@
+:root {
+    --background-color: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul:#002F52;
+    --cinza: #858585;
+    --cincadark: #474646;
+
+
+}
+
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1rem;
+}
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .lista-rodape-item {
+        display: flex;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .lista-rodape-link {
+        text-decoration: none;
+        color: var(--cinzadark);
+        margin-left: 0.6rem;
+    }
+
+    .lista-rodape-titulo {
+        color: var(--cinza);
+        padding: 56px 0 25px 0;
+        text-transform: uppercase;
+    }
+
+    .rodape-titulo {
+        font-size: 24px;
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+
+}

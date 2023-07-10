@@ -1,0 +1,317 @@
+:root {
+    --background-color: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul:#002F52;
+
+
+}
+
+.carrossel-titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform:uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1rem 0 0.5rem 0 ;
+}
+
+.swiper-slide img {
+    width: 100%;
+
+}
+
+.swiper-button-prev, .swiper-button-next, .swiper-scrollbar {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5rem 0;
+}
+
+.card1 {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card2 {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.card-botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.descricao-titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.descricao-titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.descricao-texto {
+    font-size: 14px;
+}
+
+.botoes-item {
+    margin: 0rem 0.5rem;
+}
+
+.descricao-imagem {
+    border-radius: 5px;
+}
+
+.botoes-ancora {
+    background-color: var(--laranja);
+    padding: 0.5rem 2.2rem;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.rating {
+    margin-bottom: 0.5rem;
+}
+
+.descricao-titulo2 {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.descricao-titulo-livro2 {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.descricao-texto2 {
+    font-size: 14px;
+    margin: 1rem 0.5rem 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel-titulo {
+        font-size: 26px;
+        padding: 51px 0 25px 0;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+.swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+ 
+    .card1 {
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+    .card2 {
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+    .descricao-titulo {
+        font-size: 28px;
+        line-height: 48px;
+        margin-right: 1em;
+    }
+
+    .descricao-texto {
+        line-height: 24px;
+        margin-right: 3em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .descricao-titulo2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-right: 1em;
+    }
+
+    .descricao-texto2 {
+        line-height: 24px;
+        margin-right: 4em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 5em;
+    }
+
+    .card1 {
+        width: 34%;
+        margin-right: 10%;
+        margin-top: 135px;
+        padding: 2em;
+    }
+
+    .card2 {
+        width: 34%;
+        margin-right: 10%;
+        margin-top: 135px;
+        padding: 2em;
+    }
+
+    .swiper {
+        width:40%;
+        margin-left: 10%;
+    }
+
+    .descricao-titulo {
+        font-size: 2em;
+        line-height: 1.5em;
+        margin-right: 1em;
+    }
+
+    .descricao-texto {
+        line-height: 1.5em;
+        margin-right: 3em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .botoes-item img {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .descricao-titulo2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-right: 1em;
+    }
+
+    .descricao-texto2 {
+        line-height: 24px;
+        margin-right: 4em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (min-width: 3440px) {
+
+    .carrossel-container {
+        padding-bottom: 4em;
+        padding-top: 1em;
+    }
+
+    .card1 {
+        width: 885.3px;
+        margin-right: 20%;
+        margin-top: 135px;
+        padding: 2em;
+    }
+
+    .card2 {
+        width: 885.3px;
+        margin-right: 20%;
+        margin-top: 135px;
+        padding: 2em;
+    }
+
+    .swiper {
+        width: 26%;
+        margin-left: 20%;
+    }
+
+    .descricao-titulo {
+        font-size: 2.5em;
+        line-height: 1.5em;
+        margin-right: 1em;
+    }
+
+    .descricao-titulo-livro {
+        font-size: 30px;
+    }
+
+    .descricao-texto {
+        line-height: 1.5em;
+        margin-right: 3em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .botoes-item img {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .descricao-titulo2 {
+        font-size: 2.5em;
+        line-height: 1.5em;
+        margin-right: 1em;
+    }
+
+    .descricao-titulo-livro2 {
+        font-size: 30px;
+    }
+
+    .descricao-texto2 {
+        line-height: 1.5em;
+        margin-right: 3em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+}

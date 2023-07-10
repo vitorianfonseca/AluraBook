@@ -1,0 +1,84 @@
+:root {
+    --background-color: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul:#002F52;
+}
+
+.topicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.topicos-titulo {
+color: var(--branco);
+font-weight: 300;
+margin-bottom: 1rem;
+text-transform: uppercase;
+}
+
+.topicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos-item {
+    margin: 1.2rem 0.5rem;
+}
+
+.topicos-link {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 0.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+     
+    .topicos-titulo {
+        font-size:30px;
+    }
+
+    .topicos-link {
+        font-size: 20px;
+    }
+
+    .topicos-link {
+        background-color: var(--laranja);
+        color: var(--branco);
+        padding: 1.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    .topicos-item {
+        margin: 4rem 1rem;
+    }
+
+    .topicos {
+        background: var(--azul-degrade);
+        text-align: center;
+        padding: 3rem;
+    
+    }
+
+    .topicos-titulo {
+        color: var(--branco);
+        font-weight: 300;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        }
+}
