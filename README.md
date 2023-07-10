@@ -6,7 +6,7 @@
 
 Projeto contruído no curso de responsividade da Alura.
 
-[alura-book-pink.vercel.app]
+[Clique aqui para acessar]([https://v1fonseca911.github.io/social-tree/](https://alura-book-git-main-v1fonseca911.vercel.app/))
 
 ## Tecnologias
 
