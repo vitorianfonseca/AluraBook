@@ -6,7 +6,7 @@
 
 Projeto contruído no curso de responsividade da Alura.
 
-[Clique aqui para acessar]((https://alura-book-git-main-v1fonseca911.vercel.app/)))
+[Clique aqui para acessar]((https://alura-book-git-main-v1fonseca911.vercel.app/))
 
 ## Tecnologias
 
